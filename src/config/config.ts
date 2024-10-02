@@ -5,6 +5,8 @@ const _config = {
     port: process.env.PORT || 5513,
 
     databaseUrl: process.env.MONGO_CONNECTION_STRING,
+
+    env: process.env.NODE_ENV,
 }
 console.log(process.env.MONGO_CONNECTION_STRING)
 
